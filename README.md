@@ -14,10 +14,9 @@
 
 ---
 
-## 🛠️ Especificaciones del Entorno de Desarrollo
+##  Especificaciones del Entorno de Desarrollo
 * **Lenguaje:** Java SE 17 / 21
 * **Patrón de Diseño:** Iterator (Desacoplamiento de Estructuras de Datos)
 * **IDE Recomendado:** Visual Studio Code / NetBeans
 * **Control de Versiones:** Git & GitHub
 
-> **Nota de Auditoría:** Este repositorio cumple estrictamente con el principio de responsabilidad única (SRP) y segregación de interfaces (ISP) exigidos en la rúbrica de evaluación de Patrones de Diseño . 
