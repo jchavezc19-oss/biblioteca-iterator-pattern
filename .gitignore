@@ -1,0 +1,19 @@
+# Compilados de Java
+*.class
+**/bin/
+**/out/
+
+# Configuración de entornos de desarrollo (IDEs)
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+.idea/
+/nbproject/private/
+/nbproject/project.properties
+/nbproject/project.xml
+
+# Archivos del sistema operativo
+Thumbs.db
+desktop.ini
