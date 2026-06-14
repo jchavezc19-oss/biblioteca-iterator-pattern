@@ -14,13 +14,16 @@ public class Main {
         biblioteca.agregarRecurso(new RecursoBibliografico("Cien Años de Soledad", "García Márquez", "Código-C", true));
         biblioteca.agregarRecurso(new RecursoBibliografico("Ingeniería de Software", "Pressman", "Código-D", false));
 
-        System.out.println("--- RECORRIDO DE JORGE CHÁVEZ (Alfabético por Título) ---");
-        IteradorInterface iteradorJorge = biblioteca.crearIteradorAlfabetico();
+    System.out.println("=========================================================");
+        System.out.println("  RECORRIDO DE JORGE CHÁVEZ (Ordenación Lógica por Título) ");
+        System.out.println("=========================================================");        IteradorInterface iteradorJorge = biblioteca.crearIteradorAlfabetico();
         while (iteradorJorge.hasNext()) {
             System.out.println(iteradorJorge.next());
         }
 
-        System.out.println("\n--- RECORRIDO (Solo Libros Disponibles) ---");
+        System.out.println("\n=========================================================");
+        System.out.println("  RECORRIDO DE DISPONIBILIDAD (Evaluación Lazy - Filtro)  ");
+        System.out.println("=========================================================");
         IteradorInterface iterador = biblioteca.crearIteradorDisponibilidad();
         while (iterador.hasNext()) {
             System.out.println(iterador.next());
