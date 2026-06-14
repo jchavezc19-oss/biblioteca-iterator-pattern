@@ -1,4 +1,8 @@
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![Patrón](https://img.shields.io/badge/Pattern-Iterator-blue?style=for-the-badge)
 # Sistema de Biblioteca - Patrón Iterator
+
 
 **Integrantes:**
 - Chávez Castillo, Jorge Leonardo (Recorrido Alfabético)
